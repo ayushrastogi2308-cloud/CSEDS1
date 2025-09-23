@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Petit Coin Français</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5dc; /* A light, creamy color */
+            color: #36454F; /* Charcoal gray */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif; /* A more elegant font */
+            font-size: 3em;
+            color: #8B0000; /* Dark red */
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            color: #4B0082; /* Indigo */
+            margin-top: 40px;
+            border-bottom: 2px solid #ddd;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px dashed #ccc;
+            position: relative;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .menu-item:hover {
+            background-color: #f9f9f9;
+        }
+        .menu-item-name {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .menu-item-price {
+            font-style: italic;
+            color: #666;
+        }
+        .menu-item .image-hover {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 105%; /* Position to the right of the text */
+            transform: translateY(-50%);
+            z-index: 10;
+            width: 250px;
+            height: auto;
+            border: 2px solid #4B0082;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .menu-item:hover .image-hover {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>APNA DHABA</h1>
+
+        <h2>Appetizers</h2>
+        <div class="menu-item">
+            <span class="menu-item-name">MAKKE DE ROTI</span>
+            <span class="menu-item-price">$18</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/8B0000/FFFFFF?text=Escargots" alt="Escargots">
+        </div>
+        <div class="menu-item">
+            <span class="menu-item-name">FRENCH FRIES</span>
+            <span class="menu-item-price">$12</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/4B0082/FFFFFF?text=French+Onion+Soup" alt="Soupe à l'oignon">
+        </div>
+
+        ---
+
+        <h2>Main Courses</h2>
+        <div class="menu-item">
+            <span class="menu-item-name">Coq au Vin</span>
+            <span class="menu-item-price">$25</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/8B0000/FFFFFF?text=Coq+au+Vin" alt="Coq au Vin">
+        </div>
+        <div class="menu-item">
+            <span class="menu-item-name">Boeuf Bourguignon</span>
+            <span class="menu-item-price">$28</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/4B0082/FFFFFF?text=Boeuf+Bourguignon" alt="Boeuf Bourguignon">
+        </div>
+        <div class="menu-item">
+            <span class="menu-item-name">Ratatouille Provençale</span>
+            <span class="menu-item-price">$22</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/8B0000/FFFFFF?text=Ratatouille" alt="Ratatouille">
+        </div>
+
+        ---
+
+        <h2>Desserts</h2>
+        <div class="menu-item">
+            <span class="menu-item-name">Crème Brûlée</span>
+            <span class="menu-item-price">$10</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/4B0082/FFFFFF?text=Crème+Brûlée" alt="Crème Brûlée">
+        </div>
+        <div class="menu-item">
+            <span class="menu-item-name">Mousse au chocolat</span>
+            <span class="menu-item-price">$9</span>
+            <img class="image-hover" src="https://via.placeholder.com/250/8B0000/FFFFFF?text=Mousse" alt="Mousse au chocolat">
+        </div>
+    </div>
+
+</body>
+</html>
