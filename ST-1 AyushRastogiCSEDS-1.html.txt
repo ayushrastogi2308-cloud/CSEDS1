@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>resume</title>
+</head>
+<body>
+<u><b><center><h1><p>Resume</u></b></h1></p></center>
+<ol type="A">
+<li>NAME=AYUSH RASTOGI</li>
+<li>Qualifications</li>
+<ul type="dot">
+<li>12</li>
+<li>btech CSEDS</li>
+</ul>
+<li>SKills</li>
+<ul>
+<li>python</li>
+<li>c++</li>
+</ol>
+<p><i>Interested in Data Management & App Development</i></p>
+<dl>fluent Learner,leadership Quality</dl>
+<ol type="1">
+<li>Certificates</li>
+<li>python</li>
+<li>c++</li>
+</ol>
+<ul>
+<li>Other things</li>
+<li>Like songs</li>
+<li>Games</li>
+</body>
+</html>
