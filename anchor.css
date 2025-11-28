@@ -1,0 +1,61 @@
+.course{  
+    color:black;
+    box-sizing: border-box;
+    background-color:rgb(211, 211, 117);
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid rgb(35, 35, 59);
+    padding:10px;
+    margin:10px;
+    text-align:left;
+}
+.multimedia{
+    color:black;
+    background-color:lightcoral;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid rgb(35, 35, 59);
+    padding:10px;
+    margin:10px;
+    text-align:left;
+}
+.tables{
+    color:black;
+    background-color:lightgreen;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid rgb(35, 35, 59);
+    padding:10px;
+    margin:10px;
+    text-align:left;
+}
+.hotel{
+    color:black;
+    background-color:lightsalmon;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid rgb(35, 35, 59);
+    padding:10px;
+    margin:10px;
+    text-align:left;
+}
+.sutudent{
+    color:black;
+    background-color:lightblue;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid rgb(35, 35, 59);
+    padding:10px;
+    margin:10px;
+    text-align:left;
+}
+.product{
+    color:black;
+    background-color:lightyellow;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid rgb(35, 35, 59);
+    padding:10px;
+    margin:10px;
+    text-align:left;
+}
